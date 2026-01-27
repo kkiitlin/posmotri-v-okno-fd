@@ -146,7 +146,7 @@ ol {
   padding: 1px;
 }
 
-.search-form__pseudo-checkbox::after{
+.search-form__pseudo-checkbox::after {
   content: '';
   display: block;
   background-color: #fff;
@@ -321,7 +321,7 @@ ol {
   margin-bottom: 16px;
 }
 
-.result__video{ 
+.result__video { 
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
