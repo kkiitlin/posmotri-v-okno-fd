@@ -224,8 +224,8 @@ ol {
 
 .content__list {
   display: flex;
-  flex-direction: column;
   gap: 30px; 
+  flex-direction: column; 
 }
 
 .content__list-container {
