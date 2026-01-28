@@ -12,7 +12,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 534px;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -59,7 +58,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   inline-size: 1140px;
-  block-size: 534px;
+  min-block-size: 534px;
 }
 
 .result {
@@ -115,7 +114,7 @@ ol {
   border: none;
   border-width: 1px 0; 
   border-style: solid;
-  border-color: white;
+  border-color: currentColor;
   color: #fff;
   width: 225px;
   height: 27px;
@@ -199,6 +198,7 @@ ol {
   width: 390px;
   min-block-size: 34px; 
   margin-bottom: 2px;
+  margin-left: 2px;
 }
 
 .content__details {
@@ -214,7 +214,7 @@ ol {
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 90%;
   text-transform: uppercase;
 }
 
@@ -231,7 +231,7 @@ ol {
 .content__list-container {
   position: relative;
   overflow-y: auto;
-  height: 399px;
+  height: 298px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -268,7 +268,6 @@ ol {
   align-items: flex-start;
   justify-content: space-between;
   width: 390px;
-  height: 103px;
 }
 
 .content__video-card-description-container {
@@ -311,7 +310,6 @@ ol {
 .content__list-item {
   padding-left: 3px;
   width: 390px;
-  height: 103px;
 }
 
 .result__video-container { 
